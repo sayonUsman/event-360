@@ -15,7 +15,7 @@ const HeaderBannerSection = () => {
             For Winter
           </h2>
 
-          <p className="hidden md:block text-[16px] lg:text-[18px] xl:text-[20px] text-white text-justify md:py-4 lg:py-5 2xl:py-8">
+          <p className="hidden md:block text-[16px] lg:text-[18px] xl:text-[20px] text-white text-center md:py-4 lg:py-5 2xl:py-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
             imperdiet sed id elementum. Quam vel aliquam sit vulputate. Faucibus
             nec gravida ipsum pulvinar vel non.
