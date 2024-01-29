@@ -1,5 +1,11 @@
+import HeaderBannerSection from "./HeaderBannerSection";
+
 const Home = () => {
-  return <div></div>;
+  return (
+    <div>
+      <HeaderBannerSection />
+    </div>
+  );
 };
 
 export default Home;
