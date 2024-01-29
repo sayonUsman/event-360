@@ -4,7 +4,7 @@ import ServicesSection from "./ServicesSection";
 
 const Home = () => {
   return (
-    <div>
+    <div className="absolute top-0">
       <HeaderBannerSection />
 
       <SectionTitleAndSubtitle

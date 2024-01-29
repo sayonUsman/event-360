@@ -1,10 +1,9 @@
 import bg from "../../assets/images/BG.png";
-import Container from "../../components/ui/Container";
 
 const HeaderBannerSection = () => {
   return (
-    <Container>
-      <img src={bg} alt="image" className="relative" />
+    <>
+      <img src={bg} alt="image" />
 
       <div className="absolute top-0 left-0 flex justify-center items-center w-full h-[275px] sm:h-[390px] md:h-[500px] lg:h-[675px] xl:h-[775px] 2xl:h-[810px] bg-transparent">
         <div className="w-full md:max-w-[485px] lg:max-w-[625px] xl:max-w-[775px] 2xl:max-w-[917px]">
@@ -29,7 +28,7 @@ const HeaderBannerSection = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </>
   );
 };
 
