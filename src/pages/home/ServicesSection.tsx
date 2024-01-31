@@ -1,4 +1,3 @@
-import Container from "../../components/ui/Container";
 import ServiceCard from "../../components/ui/serviceCard/ServiceCard";
 import ServiceCardII from "../../components/ui/serviceCard/ServiceCardII";
 
@@ -26,15 +25,13 @@ const ServicesSection = () => {
   };
 
   return (
-    <Container>
-      <div className="flex justify-center items-center w-full h-full mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 px-3 sm:px-0 xl:px-5 2xl:px-0">
-          <ServiceCard services={servicesNoI} />
-          <ServiceCardII />
-          <ServiceCard services={servicesNoII} />
-        </div>
+    <div className="flex justify-center items-center w-full max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 px-3 sm:px-0 xl:px-5 2xl:px-0">
+        <ServiceCard services={servicesNoI} />
+        <ServiceCardII />
+        <ServiceCard services={servicesNoII} />
       </div>
-    </Container>
+    </div>
   );
 };
 
