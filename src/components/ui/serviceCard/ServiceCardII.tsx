@@ -25,7 +25,11 @@ function CheckIcon() {
   );
 }
 
-const ServiceCardII = () => {
+type TServiceCardIIProps = {
+  services: string[];
+};
+
+const ServiceCardII = ({ services }: TServiceCardIIProps) => {
   return (
     <Card
       className="w-full max-w-[26rem] max-h-[37rem] bg-gradient-to-b from-black/5 to-white rounded-md shadow-md p-8"
@@ -45,55 +49,20 @@ const ServiceCardII = () => {
 
       <CardBody placeholder="Service Card Body" className="p-0 py-10">
         <ul className="flex flex-col gap-4 text-black">
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border bg-white p-1">
-              <CheckIcon />
-            </span>
+          {services.map((service, index) => (
+            <li key={index} className="flex items-center gap-4">
+              <span className="rounded-full border bg-white p-1">
+                <CheckIcon />
+              </span>
 
-            <Typography className="font-normal" placeholder="Service No 1">
-              Wedding Planner
-            </Typography>
-          </li>
-
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border bg-white p-1">
-              <CheckIcon />
-            </span>
-
-            <Typography className="font-normal" placeholder="Service No 2">
-              Event Coordinator
-            </Typography>
-          </li>
-
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border bg-white p-1">
-              <CheckIcon />
-            </span>
-
-            <Typography className="font-normal" placeholder="Service No 3">
-              Catering Staff
-            </Typography>
-          </li>
-
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border bg-white p-1">
-              <CheckIcon />
-            </span>
-
-            <Typography className="font-normal" placeholder="Service No 4">
-              Decorations and Setup Crew
-            </Typography>
-          </li>
-
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border bg-white p-1">
-              <CheckIcon />
-            </span>
-
-            <Typography className="font-normal" placeholder="Service No 5">
-              Expert Photographer/Videographer
-            </Typography>
-          </li>
+              <Typography
+                className="font-normal"
+                placeholder={`Service No ${index + 1}`}
+              >
+                {service}
+              </Typography>
+            </li>
+          ))}
         </ul>
       </CardBody>
 
