@@ -1,5 +1,6 @@
 import SectionTitleAndSubtitle from "../../components/SectionTitleAndSubtitle";
 import EventItemsSection from "./EventItemsSection";
+import GallerySection from "./GallerySection";
 import HeaderBannerSection from "./HeaderBannerSection";
 import PricingPlansSection from "./PricingPlansSection";
 import ServicesSection from "./ServicesSection";
@@ -29,6 +30,8 @@ const Home = () => {
         className="mt-24 xl:mt-32 mb-14"
       />
       <PricingPlansSection />
+
+      <GallerySection />
     </div>
   );
 };
