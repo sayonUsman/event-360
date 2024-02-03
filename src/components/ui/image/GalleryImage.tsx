@@ -5,6 +5,7 @@ import {
   DialogBody,
   DialogFooter,
   IconButton,
+  Tooltip,
 } from "@material-tailwind/react";
 import { useState } from "react";
 import { cn } from "../../../lib/utils";
@@ -23,15 +24,17 @@ const GalleryImage = ({ imgUrl, className }: TGalleryImage) => {
 
   return (
     <>
-      <img
-        alt="Gallery Image"
-        className={cn(
-          "object-cover object-center rounded-md hover:opacity-80",
-          className
-        )}
-        src={imgUrl}
-        onClick={handleOpen}
-      />
+      <Tooltip content="Click On" className="rounded-none">
+        <img
+          alt="Gallery Image"
+          className={cn(
+            "object-cover object-center rounded-md hover:opacity-80",
+            className
+          )}
+          src={imgUrl}
+          onClick={handleOpen}
+        />
+      </Tooltip>
 
       <Dialog
         size="xl"
