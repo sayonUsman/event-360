@@ -3,6 +3,7 @@ import EventItemsSection from "./EventItemsSection";
 import GallerySection from "./GallerySection";
 import HeaderBannerSection from "./HeaderBannerSection";
 import PricingPlansSection from "./PricingPlansSection";
+import RecentEventsSection from "./RecentEventsSection";
 import ServicesSection from "./ServicesSection";
 
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
       <PricingPlansSection />
 
       <GallerySection />
+      <RecentEventsSection />
     </div>
   );
 };
