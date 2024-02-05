@@ -67,14 +67,14 @@ const GallerySection = () => {
           <div className="flex justify-end h-full md:h-[12rem]">
             <GalleryImage
               imgUrl="https://images.unsplash.com/photo-1574154808186-c3b1303a4b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="w-full md:max-w-[8rem] h-full"
+              className="md:max-w-[8rem]"
             />
           </div>
 
           <div className="flex justify-end h-full md:h-[16rem]">
             <GalleryImage
               imgUrl="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="w-full md:max-w-[10.75rem] h-full"
+              className="md:max-w-[10.75rem]"
             />
           </div>
         </div>
@@ -82,46 +82,46 @@ const GallerySection = () => {
         <div className="flex flex-col justify-center gap-4 md:pt-8">
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1591115765373-5207764f72e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full h-full md:h-[13.25rem]"
+            className="md:h-[13.25rem]"
           />
 
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full h-full md:h-[13.25rem]"
+            className="md:h-[13.25rem]"
           />
 
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full h-full md:h-[10rem]"
+            className="md:h-[10rem]"
           />
         </div>
 
         <div className="flex flex-col justify-center gap-4">
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1575029644286-efb9039cac46?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full h-full md:h-[10.75rem]"
+            className="md:h-[10.75rem]"
           />
 
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1582192730841-2a682d7375f9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full h-full md:h-[10.75rem]"
+            className="md:h-[10.75rem]"
           />
 
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1543283864-0eba98564bd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full h-full md:h-[12rem]"
+            className="md:h-[12rem]"
           />
         </div>
 
         <div className="flex flex-col justify-center gap-4">
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1578736641330-3155e606cd40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full md:max-w-[10rem] h-full md:h-[16rem]"
+            className="md:max-w-[10rem] md:h-[16rem]"
           />
 
           <GalleryImage
             imgUrl="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="w-full md:max-w-[8rem] h-full md:h-[10rem]"
+            className="md:max-w-[8rem] md:h-[10rem]"
           />
         </div>
       </div>

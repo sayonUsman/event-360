@@ -28,7 +28,7 @@ const GalleryImage = ({ imgUrl, className }: TGalleryImage) => {
         <img
           alt="Gallery Image"
           className={cn(
-            "object-cover object-center rounded-md hover:opacity-80",
+            "w-full h-full object-cover object-center rounded-md hover:opacity-80",
             className
           )}
           src={imgUrl}
