@@ -26,8 +26,8 @@ function CheckIcon() {
 
 type TServiceCardProps = {
   serviceDetails: {
-    title: string;
-    image: string;
+    serviceName: string;
+    imageUrl: string;
     services: string[];
   };
 };
@@ -44,7 +44,7 @@ const ServiceCard = ({ serviceDetails }: TServiceCardProps) => {
         className="rounded-md"
       >
         <img
-          src={serviceDetails.image}
+          src={serviceDetails.imageUrl}
           alt="ui/ux review check"
           className="h-64"
         />
@@ -56,7 +56,7 @@ const ServiceCard = ({ serviceDetails }: TServiceCardProps) => {
           className="text-2xl text-black font-semibold pb-6"
           placeholder="Service Title"
         >
-          {serviceDetails.title}
+          {serviceDetails.serviceName}
         </Typography>
 
         <ul className="flex flex-col gap-4 text-black">

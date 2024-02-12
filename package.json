@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.8",
+    "@tanstack/react-query": "^5.18.1",
+    "@tanstack/react-query-devtools": "^5.18.1",
     "clsx": "^2.1.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.3",

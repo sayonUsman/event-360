@@ -26,10 +26,14 @@ function CheckIcon() {
 }
 
 type TServiceCardIIProps = {
-  services: string[];
+  serviceDetails: {
+    serviceName: string;
+    shortDescription: string;
+    services: string[];
+  };
 };
 
-const ServiceCardII = ({ services }: TServiceCardIIProps) => {
+const ServiceCardII = ({ serviceDetails }: TServiceCardIIProps) => {
   return (
     <Card
       className="w-full max-w-[26rem] max-h-[37rem] bg-gradient-to-b from-black/5 to-white rounded-md shadow-md p-8"
@@ -39,17 +43,16 @@ const ServiceCardII = ({ services }: TServiceCardIIProps) => {
         placeholder="Service Title"
         className="text-2xl text-black font-semibold"
       >
-        Wedding event
+        {serviceDetails.serviceName}
       </Typography>
 
       <Typography placeholder="Intro" className="text-[#566B84] pt-3">
-        Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
-        ornare viverra. Ultrices faucibus neque velit risus ac id lorem.
+        {serviceDetails.shortDescription}
       </Typography>
 
       <CardBody placeholder="Service Card Body" className="p-0 py-10">
         <ul className="flex flex-col gap-4 text-black">
-          {services.map((service, index) => (
+          {serviceDetails.services.map((service, index) => (
             <li key={index} className="flex items-center gap-4">
               <span className="rounded-full border bg-white p-1">
                 <CheckIcon />
