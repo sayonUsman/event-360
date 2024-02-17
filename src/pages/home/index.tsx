@@ -5,6 +5,7 @@ import HeaderBannerSection from "./HeaderBannerSection";
 import PricingPlansSection from "./PricingPlansSection";
 import RecentEventsSection from "./RecentEventsSection";
 import ServicesSection from "./ServicesSection";
+import TestimonialSection from "./TestimonialSection";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
 
       <GallerySection />
       <RecentEventsSection />
+      <TestimonialSection />
     </div>
   );
 };
