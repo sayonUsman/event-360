@@ -6,7 +6,7 @@ const RecentEventsSection = () => {
     <div className="flex justify-center items-center mx-auto w-full h-full 2xl:h-[31rem] px-5 2xl:px-0 mb-28 2xl:mb-32">
       <div className="flex flex-col 2xl:flex-row justify-between items-center w-full max-w-7xl 2xl:h-[25rem]">
         <div className="max-w-[40rem]">
-          <h1 className="text-5xl font-extrabold text-center 2xl:text-left">
+          <h1 className="text-3xl lg:text-5xl font-extrabold text-center 2xl:text-left">
             Recent Events
           </h1>
 

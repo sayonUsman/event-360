@@ -32,7 +32,7 @@ const GallerySection = () => {
   return (
     <div className="flex flex-col 2xl:flex-row justify-between items-center w-full max-w-7xl h-full 2xl:max-h-[41rem] mx-auto my-28 2xl:my-32 px-5 2xl:px-0">
       <div className="max-w-[40rem]">
-        <h1 className="text-5xl font-extrabold text-center 2xl:text-left">
+        <h1 className="text-3xl lg:text-5xl font-extrabold text-center 2xl:text-left">
           Gallery
         </h1>
 
