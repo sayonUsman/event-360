@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="relative z-50">
+    <div className="fixed w-full max-w-[90rem] z-50 bg-gradient-to-r from-[#061C3D]/70 to-[#061C3D]">
       <header className="flex justify-center items-center h-12 sm:h-24 px-5 2xl:px-0">
         <nav className="flex justify-between items-center w-full max-w-7xl h-12 mx-auto">
           <h1 className="text-[24px] sm:text-[32px] text-white font-bold text-nowrap">

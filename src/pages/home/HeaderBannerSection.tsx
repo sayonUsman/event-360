@@ -5,7 +5,7 @@ const HeaderBannerSection = () => {
     <>
       <img src={bg} alt="image" />
 
-      <div className="absolute top-0 left-0 flex justify-center items-center w-full h-[275px] sm:h-[390px] md:h-[500px] lg:h-[675px] xl:h-[775px] 2xl:h-[810px] bg-transparent">
+      <div className="absolute top-0 flex justify-center items-center w-full max-w-[90rem] h-[17.1875rem] sm:h-[24.375rem] md:h-[31.25rem] lg:h-[42rem] xl:h-[48.5rem] 2xl:h-[51rem] bg-transparent">
         <div className="w-full md:max-w-[485px] lg:max-w-[625px] xl:max-w-[775px] 2xl:max-w-[917px]">
           <h1 className="text-[20px] sm:text-[24px] md:text-[34px] lg:text-[44px] xl:text-[54px] 2xl:text-[64px] text-white font-extrabold text-center">
             BRAND NEW EVENT PACKAGES

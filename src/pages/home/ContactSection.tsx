@@ -19,11 +19,11 @@ const ContactSection = () => {
 
       <div className="flex flex-col justify-center lg:flex-row-reverse mx-auto">
         <div className="lg:w-7/12 lg:pl-12 xl:pl-16">
-          <p className="text-gray-500 text-2xl">
+          <p className="text-gray-500 text-xl md:text-2xl">
             For further questions or any other request, please contact us.
           </p>
 
-          <div className="flex justify-between gap-5 mt-12 mb-7">
+          <div className="flex flex-col sm:flex-row sm:justify-between gap-5 mt-5 md:mt-7 lg:mt-12 mb-7">
             <Input label="Name" crossOrigin="anonymous" />
             <Input label="Email" crossOrigin="anonymous" />
           </div>

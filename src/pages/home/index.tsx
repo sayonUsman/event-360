@@ -11,7 +11,7 @@ import TestimonialSection from "./TestimonialSection";
 
 const Home = () => {
   return (
-    <div className="absolute top-0">
+    <>
       <HeaderBannerSection />
 
       <SectionTitleAndSubtitle
@@ -40,7 +40,7 @@ const Home = () => {
       <TestimonialSection />
       <ClientSection />
       <ContactSection />
-    </div>
+    </>
   );
 };
 
