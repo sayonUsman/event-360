@@ -15,7 +15,7 @@ const TestimonialSection = () => {
   };
 
   return (
-    <div className="w-full max-w-[23rem] sm:max-w-lg lg:max-w-[60rem] xl:max-w-[71.25rem] 2xl:max-w-7xl h-full max-h-[29.5rem] mx-auto mb-28 2xl:mb-32 px-3 sm:px-0 lg:px-3 2xl:px-0">
+    <div className="w-full max-w-[23rem] sm:max-w-lg lg:max-w-[60rem] xl:max-w-[71.25rem] 2xl:max-w-7xl h-full max-h-[29.5rem] mx-auto mb-24 lg:mb-28 2xl:mb-32 px-3 sm:px-0 lg:px-3 2xl:px-0">
       <h1 className="text-3xl lg:text-5xl font-extrabold text-center 2xl:text-left mb-16">
         What Our Client Said About Us
       </h1>
