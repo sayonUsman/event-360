@@ -1,5 +1,6 @@
 import SectionTitleAndSubtitle from "../../components/SectionTitleAndSubtitle";
 import ClientSection from "./ClientSection";
+import ContactSection from "./ContactSection";
 import EventItemsSection from "./EventItemsSection";
 import GallerySection from "./GallerySection";
 import HeaderBannerSection from "./HeaderBannerSection";
@@ -38,6 +39,7 @@ const Home = () => {
       <RecentEventsSection />
       <TestimonialSection />
       <ClientSection />
+      <ContactSection />
     </div>
   );
 };
