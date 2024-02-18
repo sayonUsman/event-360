@@ -49,11 +49,7 @@ const ContactSection = () => {
                   <PhoneIcon className="h-4 w-4" />
                 </TimelineIcon>
 
-                <Typography
-                  placeholder="Telephone"
-                  variant="h5"
-                  color="blue-gray"
-                >
+                <Typography placeholder="Telephone" variant="h5">
                   Telephone
                 </Typography>
               </TimelineHeader>
@@ -72,7 +68,8 @@ const ContactSection = () => {
                 <TimelineIcon className="p-2">
                   <InboxIcon className="h-4 w-4" />
                 </TimelineIcon>
-                <Typography placeholder="Inbox" variant="h5" color="blue-gray">
+
+                <Typography placeholder="Inbox" variant="h5">
                   Inbox
                 </Typography>
               </TimelineHeader>
@@ -90,7 +87,8 @@ const ContactSection = () => {
                 <TimelineIcon className="p-2">
                   <MapPinIcon className="h-4 w-4" />
                 </TimelineIcon>
-                <Typography placeholder="Office" variant="h5" color="blue-gray">
+
+                <Typography placeholder="Office" variant="h5">
                   Office
                 </Typography>
               </TimelineHeader>
