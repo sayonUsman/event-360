@@ -12,7 +12,7 @@ const Navbar = () => {
           <ul className="text-[12px] sm:text-[16px] text-white font-medium space-x-4">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact-us">Contact</NavLink>
           </ul>
         </nav>
       </header>
