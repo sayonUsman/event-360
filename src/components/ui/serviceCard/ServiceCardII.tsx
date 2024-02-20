@@ -71,7 +71,7 @@ const ServiceCardII = ({ serviceDetails }: TServiceCardIIProps) => {
 
       <CardFooter
         placeholder="Service Card Footer"
-        className="mt-12 xl:mt-5 2xl:mt-12 px-0"
+        className="sm:mt-5 2xl:mt-9 px-0"
       >
         <Button
           placeholder="Button"
