@@ -1,6 +1,6 @@
 export const getAllService = async () => {
   const response = await fetch(
-    "http://localhost:5000/event-360/api/v1/all-service"
+    "https://event-360-api.vercel.app/api/v1/all-service"
   ).then((response) => response.json());
 
   if (!response.success) {
