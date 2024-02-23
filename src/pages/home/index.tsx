@@ -1,6 +1,5 @@
-import SectionTitleAndSubtitle from "../../components/SectionTitleAndSubtitle";
+import SectionTitleAndSubtitle from "../../components/ui/SectionTitleAndSubtitle";
 import ClientSection from "./ClientSection";
-import EventItemsSection from "./EventItemsSection";
 import FeedbackSection from "./FeedbackSection";
 import GallerySection from "./GallerySection";
 import HeaderBannerSection from "./HeaderBannerSection";
@@ -8,6 +7,7 @@ import PricingPlansSection from "./PricingPlansSection";
 import RecentEventsSection from "./RecentEventsSection";
 import ServicesSection from "./ServicesSection";
 import TestimonialSection from "./TestimonialSection";
+import UpcomingEventsSection from "./UpcomingEventsSection";
 
 const Home = () => {
   return (
@@ -22,11 +22,11 @@ const Home = () => {
       <ServicesSection />
 
       <SectionTitleAndSubtitle
-        title="Event Items"
+        title="Upcoming Event"
         subtitle="Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem."
         className="mt-24 xl:mt-32 mb-14"
       />
-      <EventItemsSection />
+      <UpcomingEventsSection />
 
       <SectionTitleAndSubtitle
         title="Explore Our Pricing Plans"

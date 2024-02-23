@@ -2,11 +2,15 @@ import { cn } from "../../lib/utils";
 
 type TEventItemCard = {
   imgUrl: string;
-  itemNo: number;
+  eventLocation: string;
   className?: string;
 };
 
-const EventItemCard = ({ imgUrl, itemNo, className }: TEventItemCard) => {
+const UpcomingEventCard = ({
+  imgUrl,
+  eventLocation,
+  className,
+}: TEventItemCard) => {
   return (
     <div
       className={cn(
@@ -17,12 +21,12 @@ const EventItemCard = ({ imgUrl, itemNo, className }: TEventItemCard) => {
       <img
         src={imgUrl}
         alt="Event Item Image"
-        className="max-h-full w-full rounded-md"
+        className="max-h-full w-full rounded-md object-cover object-center"
       />
 
-      <p className="text-lg pt-1 pb-2 lg:pb-0">{`Event Item - ${itemNo}`}</p>
+      <p className="text-lg pt-1 pb-2 lg:pb-0">{`${eventLocation}`}</p>
     </div>
   );
 };
 
-export default EventItemCard;
+export default UpcomingEventCard;
