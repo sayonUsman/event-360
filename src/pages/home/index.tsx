@@ -22,7 +22,7 @@ const Home = () => {
       <ServicesSection />
 
       <SectionTitleAndSubtitle
-        title="Upcoming Event"
+        title="Upcoming Events"
         subtitle="Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem."
         className="mt-24 xl:mt-32 mb-14"
       />
